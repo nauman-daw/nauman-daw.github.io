@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nauman Dawalatabad | Research Scientist</title>
+  <meta name="description" content="Personal academic webpage and resume" />
+
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #222;
+      --muted: #666;
+      --accent: #1f4e79;
+      --border: #e5e5e5;
+      --card: #ffffff;
+      --max-width: 900px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    /* ================= LINKS (Option 2) ================= */
+    p a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
+    .links a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      opacity: 0.85;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .hero {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      margin-bottom: 48px;
+      flex-wrap: wrap;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    .hero-text h1 {
+      margin: 0;
+      font-size: 2.6rem;
+      line-height: 1.2;
+    }
+
+    .hero-text h2 {
+      margin-top: 8px;
+      font-size: 1.15rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .links {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .links a {
+      padding: 8px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: white;
+      transition: 0.2s ease;
+    }
+
+    .links a:hover {
+      transform: translateY(-1px);
+      text-decoration: none;
+    }
+
+    section {
+      margin-top: 48px;
+    }
+
+    section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px 22px;
+      margin-bottom: 18px;
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .card-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .card-subtitle {
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .date {
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    ul {
+      margin-top: 12px;
+      margin-bottom: 0;
+      padding-left: 20px;
+    }
+
+    .publication {
+      margin-bottom: 18px;
+    }
+
+    .publication-title {
+      font-weight: 600;
+    }
+
+    .publication-authors {
+      color: var(--muted);
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      margin-top: 64px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 700px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .links {
+        justify-content: center;
+      }
+
+      .hero-text h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img" />
+
+      <div class="hero-text">
+        <h1>Nauman Dawalatabad</h1>
+        <h2>Research Scientist at Zoom Communications, San Jose, CA, USA</h2>
+
+        <p>
+          I work on speech AI, large language models, speaker diarization, and healthcare AI systems. 
+</p>
+<p>
+My interests spans across understanding different speech signals and NLP, with application of AI to robust ASR, model compression, model's uncertainty, speaker diarization/verification, privacy-preserving voice deepfakes, and scalable conversational AI systems.
+        </p>
+
+        <div class="links">
+          <a href="mailto:nauman.daw@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/nauman-daw" target="_blank">LinkedIn</a>
+          <a href="https://scholar.google.co.in/citations?user=_wWupD4AAAAJ&hl=en" target="_blank">Google Scholar</a>
+          <a href="https://github.com/nauman-daw" target="_blank">GitHub</a>
+          <a href="resume.pdf" target="_blank">CV PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section>
+      <h3>About</h3>
+
+      <div class="card">
+        <p>
+          I am a Research Scientist at Zoom Communications working on production-scale Automatic Speech Recognition (ASR) for Voice AI Agents, healthcare speech systems, and word timing estimation. 
+
+	</p>
+	<p>
+ Previously, I was a Postdoctoral Associate at the Massachusetts Institute of Technology (MIT CSAIL), where I worked with
+          <a href="https://www.csail.mit.edu/person/jim-glass" target="_blank">Dr. James Glass</a>
+          on robust speech recognition, trustworthy healthcare AI, uncertainty-driven pseudo-label filtering, and privacy-preserving voice deepfakes.
+        </p>
+
+        <p>
+          I completed my Ph.D. and M.S. in Computer Science at IIT Madras, working with
+          <a href="https://www.cse.iitm.ac.in/~rupesh/teaching@iit/?id=chandra" target="_blank">Prof. C. Chandra Sekhar</a>
+          and
+          <a href="https://www.cse.iitm.ac.in/~hema/" target="_blank">Prof. Hema Murthy</a>.
+          My research focused on speaker diarization, continual transfer learning, and robust speech systems.
+	</p>
+	<p>
+
+          I have also contributed extensively to the
+          <a href="https://speechbrain.github.io/" target="_blank">SpeechBrain</a>
+          toolkit as a core contributor during my internship at MILA, Montreal, Canada with
+          <a href="https://sites.google.com/site/mircoravanelli/" target="_blank">Prof. Mirco Ravanelli</a>
+          and
+          <a href="https://yoshuabengio.org/en" target="_blank">Prof. Yoshua Bengio</a>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section>
+      <h3>Experience</h3>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Research Scientist</div>
+            <div class="card-subtitle">Zoom Communications Inc.</div>
+          </div>
+          <div class="date">2024 – Present</div>
+        </div>
+
+        <ul>
+          <li>Production-grade ASR systems for Voice AI Agents in French and Hindi-English code-mixed settings.</li>
+          <li>Zoom's first Healthcare-focused ASR systems for doctor-patient conversations using LLM persona based synthetic TTS data and added contextual biasing. Used for generating clinical notes.</li>
+          <li>Lexicon-free multilingual word boundary estimation model used as core module for diarization, ASR, and EOU detection.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Postdoctoral Associate</div>
+            <div class="card-subtitle">Massachusetts Institute of Technology - Computer Science & Artificial Intelligence Laboratory</div>
+          </div>
+          <div class="date">2021 – 2024</div>
+        </div>
+
+        <ul>
+          <li>Worked with Dr. James Glass on robust ASR and healthcare AI systems.</li>
+          <li>Uncertainty-driven pseudo-label data filtering and calibration for speech recognition.</li>
+          <li>Multimodal dementia detection from long-form interviews.</li>
+          <li>Privacy-preserving voice deepfake generation for healthcare data augmentation.</li>
+          <li>Selected as IEEE ICASSP Rising Stars in Signal Processing (2023).</li>
+        </ul>
+      </div>
+    </section>
+
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">
+              Lead Engineer — Bixby Speech & Audio Team
+            </div>
+
+            <div class="card-subtitle">
+              Samsung
+            </div>
+          </div>
+
+          <div class="date">
+            2021
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            Worked on on-device streaming ASR model compression for Samsung
+            Galaxy mobile phone devices.
+          </li>
+
+          <li>
+            Led Conformer-T model compression ideas resulting in more than
+            60% model size reduction.
+          </li>
+
+          <li>
+            Received Samsung E-Spot Award for impactful work.
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <div class="card-title">
+              Research Intern — SpeechBrain Core Team
+            </div>
+
+            <div class="card-subtitle">
+              Mila / University of Montreal
+            </div>
+          </div>
+
+          <div class="date">
+            2020 – 2021
+          </div>
+        </div>
+
+        <ul>
+          <li>
+            Core contributor to the SpeechBrain open-source toolkit.
+          </li>
+
+          <li>
+            Developed ECAPA-TDNN based speaker diarization systems
+            achieving state-of-the-art performance.
+          </li>
+
+          <li>
+            Contributed models, clustering methods, and infrastructure
+            for speaker recognition research.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- ================= PUBLICATIONS ================= -->
+    <section>
+      <h3>Selected Publications</h3>
+
+      <div class="card">
+
+        <div class="publication">
+          <div class="publication-title">
+            Differential Privacy Preserving Voice Conversion for Audio Health Data
+          </div>
+
+          <div class="publication-authors">
+            Nauman Dawalatabad, Meysam Ahangaran, Cody Karjadi,
+            Lampros Kourtis, Philip Joung, Vijaya B. Kolachalama,
+            Rhoda Au, James Glass
+          </div>
+
+          <div>
+            Alzheimer's & Dementia, 2025
+          </div>
+        </div>
+
+
+
+        <div class="publication">
+          <div class="publication-title">
+            Cross-Lingual Transfer Learning for Low-Resource Speech Translation
+          </div>
+
+          <div class="publication-authors">
+	Sameer Khurana, Nauman Dawalatabad, Antoine Laurent, Luis Vicente, Pablo Gimeno, Victoria Mingote, James Glass
+          </div>
+
+          <div>
+            IEEE ICASSP, 2024
+          </div>
+        </div>
+
+
+
+        <div class="publication">
+          <div class="publication-title">
+            On Unsupervised Uncertainty-Driven Speech Pseudo-Label Filtering
+            and Model Calibration
+          </div>
+
+          <div class="publication-authors">
+            Nauman Dawalatabad, Sameer Khurana,
+            Antoine Laurent, James Glass
+          </div>
+
+          <div>
+            IEEE ICASSP, 2023
+          </div>
+        </div>
+
+        <div class="publication">
+          <div class="publication-title">
+            Detecting Dementia from Long Neuropsychological Interviews
+          </div>
+
+          <div class="publication-authors">
+            Nauman Dawalatabad, Yuan Gong,
+            Sameer Khurana, Rhoda Au, James Glass
+          </div>
+
+          <div>
+            EMNLP Findings, 2022
+          </div>
+        </div>
+
+        <div class="publication">
+          <div class="publication-title">
+            ECAPA-TDNN Embeddings for Speaker Diarization
+          </div>
+
+          <div class="publication-authors">
+            Nauman Dawalatabad, Mirco Ravanelli,
+            François Grondin, Jenthe Thienpondt,
+            Brecht Desplanques, Hwidong Na
+          </div>
+
+          <div>
+            INTERSPEECH, 2021
+          </div>
+        </div>
+
+        <div class="publication">
+          <div class="publication-title">
+            Novel Architectures for Unsupervised Information Bottleneck based Speaker Diarization of Meetings
+          </div>
+
+          <div class="publication-authors">
+            Nauman Dawalatabad, Srikanth Madikeri, C. Chandra Sekhar, Hema A. Murthy
+          </div>
+
+          <div>
+            IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP), vol. 29, 2021
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+
+
+
+
+
+    <!-- ================= SKILLS ================= -->
+    <section>
+      <h3>Skills</h3>
+
+      <div class="tag-list">
+        <div class="tag">Speech Recognition</div>
+        <div class="tag">Speaker Diarization</div>
+        <div class="tag">Large Language Models</div>
+        <div class="tag">SpeechBrain</div>
+        <div class="tag">PyTorch</div>
+        <div class="tag">ESPNet</div>
+        <div class="tag">Kaldi</div>
+        <div class="tag">Healthcare AI</div>
+        <div class="tag">Voice Privacy</div>
+        <div class="tag">Python</div>
+        <div class="tag">TensorFlow</div>
+      </div>
+    </section>
+
+
+
+
+    <!-- ================= SOME INVITED TALKS AND RECOGNITION  ================= -->
+	<section>
+      <h3>Some Invited Talks & Recognitions</h3>
+
+        <ul>
+		<li>
+			Judge: IEEE Signal Processing Cup Competition, IEEE ICASSP 2025.
+		</li>
+
+		<li>
+			Invited Research Talk:
+			Speech Research in Healthcare at Zoom,
+			AI Developers, Zoom Headquarters, San Jose, 2024.
+		</li>
+
+		<li>
+			Alumni Guest Invited Talk:
+			 Robust Speech Recognition, 
+			IIT Madras, 2023.
+		</li>
+
+		<li>
+			Guest Lecturer: Speaker Recognition and Diarization, MIT 6.345, MIT CSAIL, 2022.
+		</li>
+
+		<li>
+			IEEE ICASSP Rising Star in Signal Processing, 2023.
+		</li>
+        </ul>
+
+
+	</section>
+
+
+
+    <!-- ================= NEWS ================= -->
+<section>
+      <h3>Featured in News</h3>
+<ul>
+	<li>
+		CNBC News: Voice AI Cloning.
+	</li>
+	<li>
+		Boston Globe News: Speech voice conversion.
+	</li>
+	<li>
+		MIT News: Speech Anonymization. 
+	</li>
+	<li>
+		IEEE Spectrum AI News: Detect Deep Audio fakes.
+	</li>
+</ul>
+
+</section>
+
+
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+      Last updated: May 2026
+    </footer>
+
+  </div>
+</body>
+</html>
